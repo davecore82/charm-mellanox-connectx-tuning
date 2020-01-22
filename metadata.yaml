@@ -1,0 +1,17 @@
+name: mellanox-connectx-tuning
+summary: Helper charm for tuning Mellanox ConnectX settings
+maintainer: David Coronel <david.coronel@canonical.com>
+description: |
+  Tune settings on Mellanox ConnectX devices.
+tags:
+  - network
+  - misc
+series:
+  - xenial
+  - bionic
+  - disco
+subordinate: true
+requires:
+  juju-info:
+    interface: juju-info
+    scope: container
